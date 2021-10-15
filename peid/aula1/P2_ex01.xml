@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ementa>
+  <refeicao id="VEP">
+    <name>Veggie-Pizza</name>
+    <base>tiny</base>
+    <ingredients>
+      <ingredient>cheese</ingredient>
+      <ingredient>spinach</ingredient>
+      <ingredient>tomato sauceeese</ingredient>
+    </ingredients>
+    <price unit="€">
+      <small>6</small>
+      <medium>8</medium>
+      <big>12</big>
+    </price>
+  </refeicao>
+
+  <refeicao id="MZP">
+    <name>Mozzarella-Pizza</name>
+    <base>crispy</base>
+    <ingredients>
+      <ingredient>cheese</ingredient>
+      <ingredient>oregano</ingredient>
+      <ingredient>chonion sauceeese</ingredient>
+    </ingredients>
+    <price unit="€">
+      <small>6</small>
+      <medium>8</medium>
+      <big>12</big>
+    </price>
+  </refeicao>
+</ementa>

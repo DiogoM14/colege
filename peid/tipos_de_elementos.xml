@@ -1,0 +1,14 @@
+<!-- Elemento vazio -->
+<produto id="123" />
+
+<!-- Elemento que contem apenas outros elementos -->
+<produto>
+  <nome>Televisão</nome>
+  <categoria>eletrodomestico</categoria>
+</produto>
+
+<!-- Elementos que contem apenas texto e atributos -->
+<produto id="123">televisão</produto>
+
+<!-- Elementos que podem conter elementos, texto e atributos -->
+<carta>Caro Sr.<nome>João</nome> o seu pedido <pedido>123</pedido> foi expedido</carta>

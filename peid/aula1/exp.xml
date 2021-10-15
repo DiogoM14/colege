@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root-element
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="exp.xsd">
+
+  <aluno>
+    <primieronome>Diogo</primieronome>
+    <apelido>Martins</apelido>
+  </aluno>
+
+  <aluno2 nraluno="123">Diogo</aluno2>
+
+  <carta>
+    Olá<nome>Jonh</nome><pedido>123</pedido>chegou
+  </carta>
+
+</root-element>

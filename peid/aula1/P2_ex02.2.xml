@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <min_temp>11</min_temp>
+  <max_temp>22</max_temp>
+
+  <wind_speed unit="hour">
+    <time>8</time>
+    <time>12</time>
+    <time>16</time>
+    <time>20</time>
+  </wind_speed>
+
+  <sun_raise unit="hour">6</sun_raise>
+  <sun_set unit="hour">19</sun_set>
+
+  <min_water_temp unit="celcius">5</min_water_temp>
+  <max_water_temp unit="celcius">12</max_water_temp>
+
+  <desc>Bom dia para um mergulho</desc>
+</response>
