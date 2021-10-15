@@ -1,0 +1,13 @@
+{
+  "name": "aula1",
+  "version": "1.0.0",
+  "main": "firstServer.js",
+  "author": "Diogo Martins",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon firstServer.js"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
