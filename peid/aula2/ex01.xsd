@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="root-element">
+    <xs:complexType>
+      <xs:all>
+        <!-- EX01 -->
+        <xs:element name="Livro" type="xs:string" />
+        
+        <!-- EX02 -->
+        <xs:element name="Livro2">
+          <xs:complexType>
+            <xs:attribute name="isbn" type="xs:positiveInteger" />
+          </xs:complexType>
+        </xs:element>
+
+        <!-- EX03 -->
+        <xs:element name="Livro3">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="titulo" type="xs:string"/>
+              <xs:element name="autor" type="xs:string"/>
+              <xs:element name="ano" type="xs:integer"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+
+        <!-- EX04 -->
+        <xs:element name="Livro4">
+          <xs:complexType>
+            <xs:simpleContent>
+              <xs:extension base="xs:string">
+                <xs:attribute name="isbn" type="xs:positiveInteger" />
+              </xs:extension>
+            </xs:simpleContent>
+          </xs:complexType>
+        </xs:element>
+
+        <!-- EX05 -->
+        <xs:element name="Livro5" >
+          <xs:complexType mixed="true">
+            <xs:sequence>
+              <xs:element name="titulo" type="xs:string"/>
+              <xs:element name="autor" type="xs:string"/>
+              <xs:element name="ano" type="xs:integer"/>
+            </xs:sequence>
+            <xs:attribute name="isbn" type="xs:positiveInteger" />
+          </xs:complexType>
+        </xs:element>
+      </xs:all>
+    </xs:complexType>
+  </xs:element>
+</xs:schema> 

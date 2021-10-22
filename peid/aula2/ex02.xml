@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<restaurantes
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="ex02.xsd"
+>
+  <restaurante tipo="italiano">
+    <nome>Mamma mia</nome>
+    <capacidade>234</capacidade>
+    <localidade>Penafiel</localidade>
+    <telefone>255255254</telefone>
+    <email>mamaaminha@gmail.com</email>
+  </restaurante>
+</restaurantes>

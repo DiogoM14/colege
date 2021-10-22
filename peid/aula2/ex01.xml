@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root-element 
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:noNamespaceSchemaLocation="ex01.xsd"
+>
+  <Livro>Diogo Martins</Livro>
+
+  <Livro2 isbn="124124432" />
+
+  <Livro3>
+    <titulo>Titulo</titulo>
+    <autor>Autor</autor>
+    <ano>1920</ano>
+  </Livro3>
+
+  <Livro4 isbn="12494">Livro</Livro4>
+
+  <Livro5 isbn="22394623">
+    O livro <titulo>X</titulo> foi escrito por <autor>X</autor>
+    e publicado no ano <ano>1978</ano>
+  </Livro5>
+</root-element>

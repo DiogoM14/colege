@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root-element
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="ex03.xsd"
+>
+  <Empresa>
+    <Designação>Empresa X</Designação>
+    <Localidade></Localidade>
+
+    <Departamentos>
+      <Departamento>
+        <Designação></Designação>
+        <Telefone>213</Telefone>
+        <E-mail></E-mail>
+        <idDep></idDep>
+
+        <Funcionarios>
+          <Funcionario>
+            <Nome></Nome>
+            <Morada></Morada>
+            <E-mail></E-mail>
+            <nrFunc></nrFunc>
+          </Funcionario>
+        </Funcionarios>
+
+      </Departamento>
+    </Departamentos>
+    
+  </Empresa>
+</root-element>

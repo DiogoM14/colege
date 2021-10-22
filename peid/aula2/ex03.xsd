@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="root-element">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Empresa">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Designação" type="xs:string" />
+              <xs:element name="Localidade" type="xs:string" />
+
+              <xs:element name="Departamentos">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Departamento" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Designação" type="xs:string" />
+                          <xs:element name="Telefone" type="xs:integer" />
+                          <xs:element name="E-mail" type="xs:string" />
+                          <xs:element name="idDep" type="xs:string" />
+                          
+                          <xs:element name="Funcionarios">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="Funcionario" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                    <xs:element name="Nome" type="xs:string" />
+                                    <xs:element name="Morada" type="xs:string" />
+                                    <xs:element name="E-mail" type="xs:string" />
+                                    <xs:element name="nrFunc" type="xs:string" />
+          
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:integer" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:integer" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+            </xs:sequence>
+            <xs:attribute name="id" type="xs:integer" />
+          </xs:complexType>
+        </xs:element>
+
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
