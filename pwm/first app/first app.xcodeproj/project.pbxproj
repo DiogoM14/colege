@@ -16,6 +16,7 @@
 		3BE35966272881A800058FEC /* first_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE35965272881A800058FEC /* first_appTests.swift */; };
 		3BE35970272881A800058FEC /* first_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE3596F272881A800058FEC /* first_appUITests.swift */; };
 		3BE35972272881A800058FEC /* first_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE35971272881A800058FEC /* first_appUITestsLaunchTests.swift */; };
+		3BE3597F2728843000058FEC /* RadioStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE3597E2728843000058FEC /* RadioStation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3BE3596B272881A800058FEC /* first appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "first appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BE3596F272881A800058FEC /* first_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = first_appUITests.swift; sourceTree = "<group>"; };
 		3BE35971272881A800058FEC /* first_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = first_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3BE3597E2728843000058FEC /* RadioStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioStation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				3BE35957272881A800058FEC /* Assets.xcassets */,
 				3BE35959272881A800058FEC /* LaunchScreen.storyboard */,
 				3BE3595C272881A800058FEC /* Info.plist */,
+				3BE3597E2728843000058FEC /* RadioStation.swift */,
 			);
 			path = "first app";
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			files = (
 				3BE35953272881A800058FEC /* ViewController.swift in Sources */,
 				3BE3594F272881A800058FEC /* AppDelegate.swift in Sources */,
+				3BE3597F2728843000058FEC /* RadioStation.swift in Sources */,
 				3BE35951272881A800058FEC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
