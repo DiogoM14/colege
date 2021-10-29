@@ -1,8 +1,7 @@
-const PlayerModel = require('../models/Player')
-
 function PlayerService(PlayerModel) {
   let service = {
-    create
+    create,
+    findAll
   }
 
   function create(values) {
@@ -16,6 +15,16 @@ function PlayerService(PlayerModel) {
         if (err) reject(err)
 
         resolve("Player created!")
+      })
+    })
+  }
+
+  function findAll() {
+    return new Promise((resolve, reject) => {
+      PlayerModel.find({}, (err, users) => {
+        if (err) reject(err)
+
+        resolve(users)
       })
     })
   }

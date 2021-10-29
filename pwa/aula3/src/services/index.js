@@ -1,6 +1,6 @@
-const PlayersService = require('../controllers/PlayersController')
+const PlayersController = require('../controllers/PlayersController')
 const Player = require('../models/Player')
 
-const service = PlayersService(Player)
+const service = PlayersController(Player)
 
 module.exports = service

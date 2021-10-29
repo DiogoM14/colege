@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://www.pelouro.cs/main"
+    xmlns:med="http://www.pelouro.cs/medico"
+    xmlns:pac="http://www.pelouro.cs/paciente"
+    xmlns:mdi="http://www.pelouro.cs/medicamento"
+    elementFormDefault="qualified"
+>
+
+<xs:import schemaLocation="medicoTipo.xsd" namespace="http://www.pelouro.cs/medico" />
+<xs:import schemaLocation="pacienteTipo.xsd" namespace="http://www.pelouro.cs/paciente" />
+<xs:import schemaLocation="medicamentoTipo.xsd" namespace="http://www.pelouro.cs/medicamento" />
+
+    <xs:element name="prescricao">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="data" type="xs:date" />
+
+                <xs:element name="medico">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Nome" type="med:nomeTipo" />
+                            <xs:element name="Especialidade" type="med:especialidadeTipo" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="paciente">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Nome" type="pac:nomeTipo" />
+                            <xs:element name="Genero" type="pac:generoTipo" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="medicamento" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Nome" type="mdi:nomeTipo" />
+                            <xs:element name="Dosagem" type="mdi:dosagemTipo" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

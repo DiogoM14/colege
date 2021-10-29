@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prescricao xmlns="http://www.pelouro.cs/main" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.pelouro.cs/main main.xsd">
+  <data>2002-01-10</data>
+  <medico>
+    <Nome>Joaquim</Nome>
+    <Especialidade>ortopedia</Especialidade>
+  </medico>
+  <paciente>
+    <Nome>Amelia</Nome>
+    <Genero>masculino</Genero>
+  </paciente>
+  <medicamento>
+    <Nome>Remedio do escaravelho</Nome>
+    <Dosagem unidade="mg">100</Dosagem>
+  </medicamento>
+</prescricao>
